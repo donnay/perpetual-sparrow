@@ -1,7 +1,7 @@
-stackbitVersion: ~0.3.0
+stackbitVersion: ~0.2.0
 ssgName: gatsby
-ssgVersion: 2.3.30
-buildCommand: gatsby build
+ssgVersion: 0.1.12
+buildCommand: ./ssg-build.sh
 publishDir: public
 staticDir: static
 uploadDir: images
@@ -66,72 +66,54 @@ models:
           - violet
           - yellow
         default: pink
-      - type: model
+      - type: object
         name: header
         label: Header Configuration
-        models:
-          - header
-      - type: model
+        fields:
+          - type: string
+            name: title
+            label: Header Title
+            description: The title displayed in the header if no logo image added.
+          - type: image
+            name: logo_img
+            label: Logo Image
+            description: The logo image displayed in the header.
+          - type: boolean
+            name: has_nav
+            label: Enable Navigation Menu
+            description: Display the navigation menu bar in the header.
+            default: true
+          - type: list
+            name: nav_links
+            label: Navigation Links
+            description: List of navigation links.
+            items:
+              type: action
+      - type: object
         name: footer
         label: Footer Configuration
-        models:
-          - footer
-  header:
-    type: object
-    label: Header Configuration
-    labelField: title
-    fields:
-      - type: string
-        name: title
-        label: Header Title
-        description: The title displayed in the header if no logo image added.
-      - type: image
-        name: logo_img
-        label: Logo Image
-        description: The logo image displayed in the header.
-      - type: boolean
-        name: has_nav
-        label: Enable Navigation Menu
-        description: Display the navigation menu bar in the header.
-        default: true
-      - type: list
-        name: nav_links
-        label: Navigation Links
-        description: List of navigation links.
-        items:
-          type: model
-          models:
-            - action
-  footer:
-    type: object
-    label: Footer Configuration
-    labelField: content
-    fields:
-      - type: string
-        name: content
-        label: Footer Content
-        description: The copyright text displayed in the footer.
-      - type: list
-        name: links
-        label: Links
-        description: List of links in the footer.
-        items:
-          type: model
-          models:
-            - action
-      - type: boolean
-        name: has_social
-        label: Enable Social Links
-        description: Display social links in the footer.
-        default: true
-      - type: list
-        name: social_links
-        label: Social Links
-        description: List of social links in the footer.
-        items:
-          type: model
-          models:
-            - action
+        fields:
+          - type: string
+            name: content
+            label: Footer Content
+            description: The copyright text displayed in the footer.
+          - type: list
+            name: links
+            label: Links
+            description: List of links in the footer.
+            items:
+              type: action
+          - type: boolean
+            name: has_social
+            label: Enable Social Links
+            description: Display social links in the footer.
+            default: true
+          - type: list
+            name: social_links
+            label: Social Links
+            description: List of social links in the footer.
+            items:
+              type: action
   advanced:
     type: page
     label: Advanced Page
@@ -156,7 +138,7 @@ models:
         label: Sections
         description: Page sections
         items:
-          type: model
+          type: reference
           labelField: title
           models:
             - section_content
@@ -233,9 +215,7 @@ models:
     type: page
     label: Page
     layout: page
-    exclude:
-      - blog/**
-      - portfolio/**
+    exclude: posts/**
     fields:
       - type: string
         name: title
@@ -258,7 +238,7 @@ models:
     type: page
     label: Post
     layout: post
-    folder: blog
+    folder: posts
     fields:
       - type: string
         name: title
@@ -289,7 +269,7 @@ models:
     type: page
     label: Project
     layout: project
-    folder: portfolio
+    folder: projects
     fields:
       - type: string
         name: title
@@ -353,9 +333,7 @@ models:
         name: actions
         label: Action Buttons
         items:
-          type: model
-          models:
-            - action
+          type: action
   section_form:
     type: object
     label: Form Section
@@ -385,9 +363,7 @@ models:
         name: form_fields
         label: Form Fields
         items:
-          type: model
-          models:
-            - form_field
+          type: form_field
       - type: string
         name: submit_label
         label: Submit Button Label
@@ -419,9 +395,7 @@ models:
         name: grid_items
         label: Grid Items
         items:
-          type: model
-          models:
-            - grid_item
+          type: grid_item
   section_hero:
     type: object
     label: Hero Section
@@ -436,9 +410,7 @@ models:
         name: actions
         label: Action Buttons
         items:
-          type: model
-          models:
-            - action
+          type: action
   section_portfolio:
     type: object
     label: Portfolio Section
@@ -497,9 +469,7 @@ models:
         name: actions
         label: Action Buttons
         items:
-          type: model
-          models:
-            - action
+          type: action
   section_testimonials:
     type: object
     label: Testimonials Section
@@ -523,9 +493,7 @@ models:
         name: testimonials
         label: Testimonials
         items:
-          type: model
-          models:
-            - testimonial
+          type: testimonial
   action:
     type: object
     label: Action
@@ -541,8 +509,8 @@ models:
         required: true
         widget: url
       - type: enum
-        name: style
-        label: Style
+        name: type
+        label: Type
         options:
           - link
           - button
@@ -552,7 +520,7 @@ models:
       - type: string
         name: icon_class
         label: Icon
-        description: 'Font Awesome icon class name, used only when style is "icon".'
+        description: 'Font Awesome icon class name, used only when type is "icon".'
       - type: boolean
         name: new_window
         label: Open in new tab/window
@@ -604,7 +572,7 @@ models:
     labelField: name
     fields:
       - type: enum
-        name: input_type
+        name: type
         label: Type
         options:
           - text

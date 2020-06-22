@@ -9,32 +9,32 @@
             {
                 "label": "Home",
                 "url": "/",
-                "style": "link"
+                "type": "link"
             },
             {
                 "label": "Portfolio",
                 "url": "/portfolio/",
-                "style": "link"
+                "type": "link"
             },
             {
                 "label": "Blog",
                 "url": "/blog/",
-                "style": "link"
+                "type": "link"
             },
             {
                 "label": "Style Guide",
                 "url": "/style-guide/",
-                "style": "link"
+                "type": "link"
             },
             {
                 "label": "About",
                 "url": "/about/",
-                "style": "link"
+                "type": "link"
             },
             {
                 "label": "Contact",
                 "url": "/contact/",
-                "style": "link"
+                "type": "link"
             }
         ]
     },
@@ -44,7 +44,7 @@
             {
                 "label": "Made with Stackbit.",
                 "url": "https://www.stackbit.com",
-                "style": "link",
+                "type": "link",
                 "new_window": true
             }
         ],
@@ -53,28 +53,28 @@
             {
                 "label": "Twitter",
                 "url": "https://twitter.com/",
-                "style": "icon",
+                "type": "icon",
                 "icon_class": "fa-twitter",
                 "new_window": true
             },
             {
                 "label": "Instagram",
                 "url": "https://www.instagram.com/",
-                "style": "icon",
+                "type": "icon",
                 "icon_class": "fa-instagram",
                 "new_window": true
             },
             {
                 "label": "Dribbble",
                 "url": "https://dribbble.com/",
-                "style": "icon",
+                "type": "icon",
                 "icon_class": "fa-dribbble",
                 "new_window": true
             },
             {
                 "label": "LinkedIn",
                 "url": "https://www.linkedin.com/",
-                "style": "icon",
+                "type": "icon",
                 "icon_class": "fa-linkedin",
                 "new_window": true
             }

@@ -11,7 +11,7 @@ sections:
     actions:
       - label: Let's talk
         url: /contact
-        style: button
+        type: button
   - section_id: latest-projects
     type: section_portfolio
     layout_style: mosaic
@@ -31,7 +31,7 @@ sections:
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
           ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
-          fringilla, fringilla.
+          fringilla, fringilla .
       - title: Service Title
         content: >-
           Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
@@ -77,6 +77,6 @@ sections:
     actions:
       - label: View Blog
         url: blog/index.html
-        style: button
+        type: button
 template: advanced
 ---

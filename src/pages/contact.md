@@ -11,17 +11,17 @@ sections:
     form_id: contactForm
     form_action: /thank-you
     form_fields:
-      - input_type: text
+      - type: text
         name: name
         label: Name
         default_value: Your name
         is_required: true
-      - input_type: email
+      - type: email
         name: email
         label: Email
         default_value: Your email address
         is_required: true
-      - input_type: select
+      - type: select
         name: subject
         label: Subject
         default_value: Please select
@@ -29,11 +29,11 @@ sections:
           - Error on the site
           - Sponsorship
           - Other
-      - input_type: textarea
+      - type: textarea
         name: message
         label: Message
         default_value: Your message
-      - input_type: checkbox
+      - type: checkbox
         name: consent
         label: >-
           I understand that this form is storing my submitted information so I

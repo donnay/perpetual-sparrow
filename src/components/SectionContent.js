@@ -6,35 +6,35 @@ import CtaButtons from './CtaButtons';
 
 export default class SectionContent extends React.Component {
     render() {
-        let section = _.get(this.props, 'section', null);
+        let section = _.get(this.props, 'section');
         return (
-            <section id={_.get(section, 'section_id', null)} className="block block-text outer">
+            <section id={_.get(section, 'section_id')} className="block block-text outer">
               <div className="inner">
-                {(_.get(section, 'title', null) || _.get(section, 'subtitle', null)) && (
+                {(_.get(section, 'title') || _.get(section, 'subtitle')) && 
                 <div className="block-header inner-sm">
-                  {_.get(section, 'title', null) && (
-                  <h2 className="block-title line-top">{_.get(section, 'title', null)}</h2>
-                  )}
-                  {_.get(section, 'subtitle', null) && (
-                  <p className="block-subtitle">{htmlToReact(_.get(section, 'subtitle', null))}</p>
-                  )}
+                  {_.get(section, 'title') && 
+                  <h2 className="block-title line-top">{_.get(section, 'title')}</h2>
+                  }
+                  {_.get(section, 'subtitle') && 
+                  <p className="block-subtitle">{htmlToReact(_.get(section, 'subtitle'))}</p>
+                  }
                 </div>
-                )}
-                {_.get(section, 'image', null) && (
+                }
+                {_.get(section, 'image') && 
                 <div className="block-image">
-                  <img src={safePrefix(_.get(section, 'image', null))} alt={_.get(section, 'title', null)} />
+                  <img src={safePrefix(_.get(section, 'image'))} alt={_.get(section, 'title')} />
                 </div>
-                )}
-                {_.get(section, 'content', null) && (
+                }
+                {_.get(section, 'content') && 
                 <div className="block-content inner-sm">
-                  {markdownify(_.get(section, 'content', null))}
+                  {markdownify(_.get(section, 'content'))}
                 </div>
-                )}
-                {_.get(section, 'actions', null) && (
+                }
+                {_.get(section, 'actions') && 
                 <div className="block-buttons inner-sm">
-                  <CtaButtons {...this.props} actions={_.get(section, 'actions', null)} />
+                  <CtaButtons {...this.props} actions={_.get(section, 'actions')} />
                 </div>
-                )}
+                }
               </div>
             </section>
         );
