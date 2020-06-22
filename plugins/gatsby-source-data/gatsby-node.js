@@ -1,8 +1,81 @@
 const path = require('path');
 const yaml = require('js-yaml');
 const fse = require('fs-extra');
+const chokidar = require('chokidar');
 const _ = require('lodash');
 
+
+const metadataFileName = 'site-metadata.json';
+
+const parsers = {
+    yaml: (data) => yaml.safeLoad(data, {schema: yaml.JSON_SCHEMA}),
+    json: (data) => JSON.parse(data)
+};
+
+const supportedExtensions = {
+    'yaml': parsers.yaml,
+    'yml': parsers.yaml,
+    'json': parsers.json
+};
+
+exports.sourceNodes = (props, pluginOptions = {}) => {
+    const createContentDigest = props.createContentDigest;
+    const { createNode } = props.actions;
+    const reporter = props.reporter;
+
+    if (!_.get(pluginOptions, 'path')) {
+        pluginOptions.path = 'src/data';
+    }
+
+    if (!path.isAbsolute(pluginOptions.path)) {
+        pluginOptions.path = path.resolve(process.cwd(), pluginOptions.path)
+    }
+
+    reporter.info(`[gatsby-source-data] setup file watcher and create site data`);
+
+    const dataPath = pluginOptions.path;
+    const createSiteDataFromFilesPartial = _.partial(createSiteDataFromFiles, { dataPath, createNode, createContentDigest, reporter });
+    const watcher = chokidar.watch([dataPath, metadataFileName], {
+        cwd: '.',
+        ignoreInitial: true
+    });
+    watcher.on('add', createSiteDataFromFilesPartial);
+    watcher.on('change', createSiteDataFromFilesPartial);
+    watcher.on('unlink', createSiteDataFromFilesPartial);
+
+    return createSiteDataFromFiles({ dataPath, createNode, createContentDigest, reporter }, null);
+};
+
+async function createSiteDataFromFiles({ dataPath, createNode, createContentDigest, reporter }, changedFile) {
+    reporter.info(`[gatsby-source-data] create site data from files, updated path: ${changedFile}`);
+    let dataFiles = [];
+
+    const dataPathExists = await fse.pathExists(dataPath);
+    if (dataPathExists) {
+        dataFiles = await readDirRecursively(dataPath);
+    }
+
+    const metadataPath = path.resolve(metadataFileName);
+    const metadataExists = await fse.pathExists(metadataPath);
+    if (metadataExists) {
+        dataFiles.push(metadataPath);
+    }
+
+    const sortedDataFiles = dataFiles.slice().sort();
+    const data = await convertDataFilesToJSON(sortedDataFiles, dataPath, reporter);
+
+    createNode({
+        id: 'SiteData',
+        parent: null,
+        children: [],
+        data: data,
+        internal: {
+            type: 'SiteData',
+            contentDigest: createContentDigest(JSON.stringify(data)),
+            description: `Site data from ${path.relative(process.cwd(), dataPath)}`
+        }
+    });
+}
 
 async function readDirRecursively(dir) {
     const files = await fse.readdir(dir);
@@ -21,30 +94,24 @@ async function readDirRecursively(dir) {
     return _.chain(recFiles).compact().flatten().value();
 }
 
-const parsers = {
-    yaml: (data) => yaml.safeLoad(data, {schema: yaml.JSON_SCHEMA}),
-    json: (data) => JSON.parse(data)
-};
-
-const supportedExtensions = {
-    'yaml': parsers.yaml,
-    'yml': parsers.yaml,
-    'json': parsers.json
-};
-
-function convertDataFilesToJSON(dataFiles, relativePath) {
+function convertDataFilesToJSON(dataFiles, relativePath, reporter) {
     let promises = _.map(dataFiles, filePath => {
         const pathObject = path.parse(filePath);
-        const relDir = path.relative(relativePath, pathObject.dir);
+        const relPath = pathObject.base === metadataFileName ? metadataFileName : path.relative(relativePath, filePath);
+        const relDir = pathObject.base === metadataFileName ? '' : path.relative(relativePath, pathObject.dir);
         const ext = pathObject.ext.substring(1);
         if (!_.has(supportedExtensions, ext)) {
             return null;
         }
         return fse.readFile(filePath).then(data => {
             const propPath = _.compact(relDir.split(path.sep).concat(pathObject.name));
-            const parsedData = supportedExtensions[ext](data);
             const res = {};
-            _.set(res, propPath, parsedData);
+            try {
+                const parsedData = supportedExtensions[ext](data);
+                _.set(res, propPath, parsedData);
+            } catch (err) {
+                reporter.warn(`[gatsby-source-data] could not parse file: ${relPath}`);
+            }
             return res;
         });
     });
@@ -52,37 +119,3 @@ function convertDataFilesToJSON(dataFiles, relativePath) {
         return _.reduce(results, (data, res) => _.merge(data, res), {})
     });
 }
-
-exports.sourceNodes = (props, pluginOptions = {}) => {
-    const createContentDigest = props.createContentDigest;
-    const actions = props.actions;
-
-    if (!_.get(pluginOptions, 'path')) {
-        pluginOptions.path = 'src/data';
-    }
-
-    if (!path.isAbsolute(pluginOptions.path)) {
-        pluginOptions.path = path.resolve(process.cwd(), pluginOptions.path)
-    }
-
-    if (!fse.existsSync(pluginOptions.path)) {
-        return;
-    }
-
-    return readDirRecursively(pluginOptions.path).then(dataFiles => {
-        const sortedDataFiles = dataFiles.slice().sort();
-        return convertDataFilesToJSON(sortedDataFiles, pluginOptions.path);
-    }).then(data => {
-        actions.createNode({
-            id: 'SiteData',
-            parent: null,
-            children: [],
-            data: data,
-            internal: {
-                type: 'SiteData',
-                contentDigest: createContentDigest(JSON.stringify(data)),
-                description: `Site data from ${path.relative(process.cwd(), pluginOptions.path)}`
-            }
-        });
-    });
-};

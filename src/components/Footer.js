@@ -11,20 +11,20 @@ export default class Footer extends React.Component {
               <div className="inner">
                 <div className="site-footer-inside">
                   <div className="site-info">
-                    {_.get(this.props, 'pageContext.site.siteMetadata.footer.content') && 
-                    <span className="copyright">{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.content'))}</span>
-                    }
-                    {_.map(_.get(this.props, 'pageContext.site.siteMetadata.footer.links'), (action, action_idx) => (
+                    {_.get(this.props, 'pageContext.site.siteMetadata.footer.content', null) && (
+                    <span className="copyright">{htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.content', null))}</span>
+                    )}
+                    {_.map(_.get(this.props, 'pageContext.site.siteMetadata.footer.links', null), (action, action_idx) => (
                       <ActionLink key={action_idx} {...this.props} action={action} />
                     ))}
                   </div>
-                  {_.get(this.props, 'pageContext.site.siteMetadata.footer.has_social') && 
+                  {_.get(this.props, 'pageContext.site.siteMetadata.footer.has_social', null) && (
                   <div className="social-links">
-                    {_.map(_.get(this.props, 'pageContext.site.siteMetadata.footer.social_links'), (action, action_idx) => (
+                    {_.map(_.get(this.props, 'pageContext.site.siteMetadata.footer.social_links', null), (action, action_idx) => (
                       <ActionLink key={action_idx} {...this.props} action={action} />
                     ))}
                   </div>
-                  }
+                  )}
                 </div>
               </div>
             </footer>

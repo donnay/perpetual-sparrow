@@ -4,24 +4,19 @@ module.exports = {
     plugins: [
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
+        `gatsby-transformer-remark`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {
                 name: `pages`,
-                path: `${__dirname}/src/pages`,
-            },
+                path: `${__dirname}/src/pages`
+            }
         },
         {
             resolve: `gatsby-plugin-stackbit-static-sass`,
             options: {
                 inputFile: `${__dirname}/src/sass/main.scss`,
                 outputFile: `${__dirname}/public/assets/css/main.css`
-            },
-        },
-        {
-            resolve: `gatsby-transformer-remark`,
-            options: {
-                plugins: [`gatsby-remark-component`]
             }
         },
         {
