@@ -90,6 +90,7 @@ exports.createPages = ({graphql, getNode, actions, getNodesByType}) => {
         const siteDataNode = getNode('SiteData');
         const sitePageNodes = getNodesByType('SitePage');
         const sitePageNodesByPath = _.keyBy(sitePageNodes, 'path');
+        const siteData = _.get(siteDataNode, 'data', {});
 
         const pages = nodes.map(graphQLNode => {
             // Use the node id to get the underlying node. It is not exactly the
@@ -112,11 +113,7 @@ exports.createPages = ({graphql, getNode, actions, getNodesByType}) => {
             const url = node.fields.url;
             const template = node.frontmatter.template;
             const component = path.resolve(`./src/templates/${template}.js`);
-
             const existingPageNode = _.get(sitePageNodesByPath, url);
-            if (existingPageNode) {
-                deletePage(existingPageNode);
-            }
 
             const page = {
                 path: url,
@@ -131,9 +128,9 @@ exports.createPages = ({graphql, getNode, actions, getNodesByType}) => {
                     html: graphQLNode.html,
                     pages: pages,
                     site: {
-                        siteMetadata: siteNode.siteMetadata,
+                        siteMetadata: _.get(siteData, 'site-metadata', {}),
                         pathPrefix: siteNode.pathPrefix,
-                        data: _.get(siteDataNode, 'data', null)
+                        data: _.omit(siteData, 'site-metadata')
                     }
                 }
             };
