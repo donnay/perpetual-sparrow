@@ -4,7 +4,7 @@ import moment from 'moment-strftime';
 import {graphql} from 'gatsby';
 
 import {Layout} from '../components/index';
-import {htmlToReact, safePrefix} from '../utils';
+import {htmlToReact, withPrefix} from '../utils';
 
 // this minimal GraphQL query ensures that when 'gatsby develop' is running,
 // any changes to content files are reflected in browser
@@ -32,7 +32,7 @@ export default class Post extends React.Component {
                 </header>
                 {_.get(this.props, 'pageContext.frontmatter.image', null) && (
                 <div className="post-image">
-                  <img src={safePrefix(_.get(this.props, 'pageContext.frontmatter.image', null))} alt={_.get(this.props, 'pageContext.frontmatter.title', null)} />
+                  <img src={withPrefix(_.get(this.props, 'pageContext.frontmatter.image', null))} alt={_.get(this.props, 'pageContext.frontmatter.title', null)} />
                 </div>
                 )}
                 <div className="post-content inner-sm">

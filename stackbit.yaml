@@ -8,14 +8,6 @@ uploadDir: images
 dataDir: src/data
 pagesDir: src/pages
 pageLayoutKey: template
-metadata:
-  title: Exto
-  description: A portfolio theme with a blog
-  author: Stackbit
-  authorURL: 'https://www.stackbit.com'
-  images:
-    small: images/demo-256x192.png
-    large: images/demo-1024x768.png
 pageData:
   - pagePath: /
     initialExpandedPaths:
@@ -28,11 +20,6 @@ pageData:
       - '[1]'
       - '[1].fields.color_scheme'
       - '[1].fields.accent_color'
-stackbit_banner:
-  show_banner: true
-  name: Exto
-  create_url: 'https://app.stackbit.com/create?theme=exto'
-  github_url: 'https://github.com/stackbithq/stackbit-theme-exto'
 models:
   config:
     type: config
@@ -578,7 +565,9 @@ models:
         name: actions
         label: Action Buttons
         items:
-          type: action
+          type: model
+          models:
+            - action
   testimonial:
     type: object
     label: Testimonial

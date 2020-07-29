@@ -19,7 +19,7 @@ sections:
     subtitle: An optional subtitle of the section
     projects_number: 6
     view_all_label: View All
-    view_all_url: portfolio/index.html
+    view_all_url: portfolio
   - section_id: services
     type: section_grid
     title: What We Do
@@ -76,7 +76,7 @@ sections:
     col_number: three
     actions:
       - label: View Blog
-        url: blog/index.html
+        url: blog
         style: button
 template: advanced
 ---

@@ -1,7 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 
-import {htmlToReact, classNames, safePrefix, markdownify} from '../utils';
+import {htmlToReact, classNames, withPrefix, markdownify} from '../utils';
 import CtaButtons from './CtaButtons';
 
 export default class SectionGrid extends React.Component {
@@ -30,7 +30,7 @@ export default class SectionGrid extends React.Component {
                       )}
                       {_.get(item, 'image', null) && (
                       <div className="grid-item-image">
-                        <img src={safePrefix(_.get(item, 'image', null))} alt={_.get(item, 'title', null)} />
+                        <img src={withPrefix(_.get(item, 'image', null))} alt={_.get(item, 'title', null)} />
                       </div>
                       )}
                       {_.get(item, 'title', null) && (

@@ -3,7 +3,7 @@ import _ from 'lodash';
 import {graphql} from 'gatsby';
 
 import {Layout} from '../components/index';
-import {getPages, Link, safePrefix} from '../utils';
+import {getPages, Link, withPrefix} from '../utils';
 
 // this minimal GraphQL query ensures that when 'gatsby develop' is running,
 // any changes to content files are reflected in browser
@@ -30,10 +30,10 @@ export default class Portfolio extends React.Component {
               <div className={'portfolio-feed layout-' + _.get(this.props, 'pageContext.frontmatter.layout_style', null)}>
                 {_.map(display_projects, (post, post_idx) => (
                 <article key={post_idx} className="project">
-                  <Link to={safePrefix(_.get(post, 'url', null))} className="project-link">
+                  <Link to={withPrefix(_.get(post, 'url', null))} className="project-link">
                     {_.get(post, 'frontmatter.thumb_image', null) && (
                     <div className="project-thumbnail">
-                      <img src={safePrefix(_.get(post, 'frontmatter.thumb_image', null))} alt={_.get(post, 'frontmatter.title', null)} />
+                      <img src={withPrefix(_.get(post, 'frontmatter.thumb_image', null))} alt={_.get(post, 'frontmatter.title', null)} />
                     </div>
                     )}
                     <header className="project-header">

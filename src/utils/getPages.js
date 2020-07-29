@@ -1,11 +1,36 @@
-import _ from "lodash";
+import _ from 'lodash';
 
-export default function(pages, folderPath) {
-    folderPath = _.trim(folderPath, '/');
-    const folderPathParts = _.split(folderPath, '/');
+/**
+ * Get all the pages located under the provided `urlPath`, not including the
+ * index page. I.e.: All pages having their URLs start with `urlPath` excluding
+ * the page having its URL equal to `urlPath`.
+ *
+ * @example
+ * pages => [
+ *   {url: '/'},
+ *   {url: '/about'},
+ *   {url: '/posts'},
+ *   {url: '/posts/hello'},
+ *   {url: '/posts/world'}
+ * ]
+ *
+ * getPages(pages, /posts')
+ * => [
+ *   {url: '/posts/hello'},
+ *   {url: '/posts/world'}
+ * ]
+ *
+ *
+ * @param {Array} pages Array of page objects. All pages must have '__metadata' object with 'url' field.
+ * @param {string} urlPath The url path to filter pages by
+ * @return {Array}
+ */
+export default function(pages, urlPath) {
+    urlPath = _.trim(urlPath, '/');
+    const urlPathParts = _.split(urlPath, '/');
     return _.filter(pages, page => {
-        const url = _.trim(page.url, '/');
-        const urlParts = _.split(url, '/');
-        return urlParts.length > folderPathParts.length && _.isEqual(urlParts.slice(0, folderPathParts.length), folderPathParts);
+        const pageUrlPath = _.trim(page.url, '/');
+        const pageUrlParts = _.split(pageUrlPath, '/');
+        return pageUrlParts.length > urlPathParts.length && _.isEqual(pageUrlParts.slice(0, urlPathParts.length), urlPathParts);
     });
 }

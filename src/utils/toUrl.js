@@ -1,11 +1,13 @@
 import _ from 'lodash';
+import getPage from './getPage';
 
 export default function(pages, pagePath) {
     if (_.startsWith(pagePath, '#')) {
         return pagePath;
     } else {
-        pagePath = pagePath.replace(/^\//, '');
-        const page = _.find(pages, {relativePath: pagePath});
+        // remove extension
+        pagePath = pagePath.replace(/\.\w+$/, '');
+        const page = getPage(pages, pagePath);
         if (!page) {
             throw new Error('could not find page with path: ' + pagePath);
         }

@@ -1,7 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 
-import {htmlToReact, getPages, Link, safePrefix} from '../utils';
+import {htmlToReact, getPages, Link, withPrefix} from '../utils';
 
 export default class SectionPortfolio extends React.Component {
     render() {
@@ -28,19 +28,19 @@ export default class SectionPortfolio extends React.Component {
                     _.map(recent_projects, (post, post_idx) => (
                     <article key={post_idx} className="project">
                       {(((post_idx === post_len - 1) && _.get(section, 'view_all_label', null)) && _.get(section, 'view_all_url', null)) ? (
-                      <Link to={safePrefix(_.get(section, 'view_all_url', null))} className="project-link view-all-link">
+                      <Link to={withPrefix(_.get(section, 'view_all_url', null))} className="project-link view-all-link">
                         {_.get(post, 'frontmatter.thumb_image', null) && (
                         <div className="project-thumbnail">
-                          <img src={safePrefix(_.get(post, 'frontmatter.thumb_image', null))} alt={_.get(post, 'frontmatter.title', null)} />
+                          <img src={withPrefix(_.get(post, 'frontmatter.thumb_image', null))} alt={_.get(post, 'frontmatter.title', null)} />
                         </div>
                         )}
                         <span className="view-all-button">{_.get(section, 'view_all_label', null)}</span>
                       </Link>
                       ) : 
-                      <Link to={safePrefix(_.get(post, 'url', null))} className="project-link">
+                      <Link to={withPrefix(_.get(post, 'url', null))} className="project-link">
                         {_.get(post, 'frontmatter.thumb_image', null) && (
                         <div className="project-thumbnail">
-                          <img src={safePrefix(_.get(post, 'frontmatter.thumb_image', null))} alt={_.get(post, 'frontmatter.title', null)} />
+                          <img src={withPrefix(_.get(post, 'frontmatter.thumb_image', null))} alt={_.get(post, 'frontmatter.title', null)} />
                         </div>
                         )}
                         <header className="project-header">

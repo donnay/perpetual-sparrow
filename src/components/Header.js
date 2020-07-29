@@ -1,7 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 
-import {Link, safePrefix, classNames} from '../utils';
+import {Link, withPrefix, classNames} from '../utils';
 import ActionLink from './ActionLink';
 
 export default class Header extends React.Component {
@@ -13,10 +13,10 @@ export default class Header extends React.Component {
                   <div className="site-branding">
                     {_.get(this.props, 'pageContext.site.siteMetadata.header.logo_img', null) ? (
                     <p className="site-logo">
-                      <Link to={safePrefix('/')}><img src={safePrefix(_.get(this.props, 'pageContext.site.siteMetadata.header.logo_img', null))} alt={_.get(this.props, 'pageContext.site.siteMetadata.header.title', null)} /></Link>
+                      <Link to={withPrefix('/')}><img src={withPrefix(_.get(this.props, 'pageContext.site.siteMetadata.header.logo_img', null))} alt={_.get(this.props, 'pageContext.site.siteMetadata.header.title', null)} /></Link>
                     </p>
                     ) : 
-                    <p className="site-title"><Link to={safePrefix('/')}>{_.get(this.props, 'pageContext.site.siteMetadata.header.title', null)}</Link></p>
+                    <p className="site-title"><Link to={withPrefix('/')}>{_.get(this.props, 'pageContext.site.siteMetadata.header.title', null)}</Link></p>
                     }
                   </div>
                   {_.get(this.props, 'pageContext.site.siteMetadata.header.has_nav', null) && (<React.Fragment>
@@ -25,11 +25,15 @@ export default class Header extends React.Component {
                     <div className="site-nav-inside">
                       <button id="menu-close" className="menu-toggle"><span className="screen-reader-text">Open Menu</span><span className="icon-close" aria-hidden="true" /></button>
                       <ul className="menu">
-                        {_.map(_.get(this.props, 'pageContext.site.siteMetadata.header.nav_links', null), (action, action_idx) => (
-                        <li key={action_idx} className={classNames('menu-item', {'current-menu-item': _.get(this.props, 'pageContext.url', null) === _.get(action, 'url', null), 'menu-button': _.get(action, 'style', null) !== 'link'})}>
-                          <ActionLink {...this.props} action={action} />
-                        </li>
-                        ))}
+                        {_.map(_.get(this.props, 'pageContext.site.siteMetadata.header.nav_links', null), (action, action_idx) => {
+                            let pageUrl = _.trim(_.get(this.props, 'pageContext.url', null), '/');
+                            let actionUrl = _.trim(_.get(action, 'url', null), '/');
+                            return (
+                              <li key={action_idx} className={classNames('menu-item', {'current-menu-item': pageUrl === actionUrl, 'menu-button': _.get(action, 'style', null) !== 'link'})}>
+                                <ActionLink {...this.props} action={action} />
+                              </li>
+                            )
+                        })}
                       </ul>
                     </div>
                   </nav>

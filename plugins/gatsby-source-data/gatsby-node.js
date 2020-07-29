@@ -58,7 +58,7 @@ async function createSiteDataFromFiles({ dataPath, createNode, createContentDige
     const metadataPath = path.resolve(metadataFileName);
     const metadataExists = await fse.pathExists(metadataPath);
     if (metadataExists) {
-        dataFiles.push(metadataPath);
+        dataFiles.push(metadataFileName);
     }
 
     const sortedDataFiles = dataFiles.slice().sort();
@@ -77,15 +77,16 @@ async function createSiteDataFromFiles({ dataPath, createNode, createContentDige
     });
 }
 
-async function readDirRecursively(dir) {
+async function readDirRecursively(dir, options) {
+    const rootDir = _.get(options, 'rootDir', dir);
     const files = await fse.readdir(dir);
     const promises = _.map(files, async file => {
         const filePath = path.join(dir, file);
         const stats = await fse.stat(filePath);
         if (stats.isDirectory()) {
-            return readDirRecursively(filePath);
+            return readDirRecursively(filePath, {rootDir});
         } else if (stats.isFile()) {
-            return filePath;
+            return path.relative(rootDir, filePath);
         } else {
             return null;
         }
@@ -94,16 +95,17 @@ async function readDirRecursively(dir) {
     return _.chain(recFiles).compact().flatten().value();
 }
 
-function convertDataFilesToJSON(dataFiles, relativePath, reporter) {
+function convertDataFilesToJSON(dataFiles, dataDirPath, reporter) {
     let promises = _.map(dataFiles, filePath => {
         const pathObject = path.parse(filePath);
-        const relPath = pathObject.base === metadataFileName ? metadataFileName : path.relative(relativePath, filePath);
-        const relDir = pathObject.base === metadataFileName ? '' : path.relative(relativePath, pathObject.dir);
+        const absFilePath = pathObject.base === metadataFileName ? metadataFileName : path.join(dataDirPath, filePath);
+        const relPath = pathObject.base === metadataFileName ? metadataFileName : filePath;
+        const relDir = pathObject.base === metadataFileName ? '' : pathObject.dir;
         const ext = pathObject.ext.substring(1);
         if (!_.has(supportedExtensions, ext)) {
             return null;
         }
-        return fse.readFile(filePath).then(data => {
+        return fse.readFile(absFilePath).then(data => {
             const propPath = _.compact(relDir.split(path.sep).concat(pathObject.name));
             const res = {};
             try {
