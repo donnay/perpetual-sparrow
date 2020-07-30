@@ -1,6 +1,6 @@
 ---
 title: Westpoint Strata Booking
-subtitle: 'A booking '
+subtitle: 'an e-commnet website '
 date: '2018-12-18'
 thumb_image: images/6_thumb.jpg
 image: images/6.jpg
