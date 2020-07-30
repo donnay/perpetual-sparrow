@@ -6,8 +6,9 @@ sections:
     type: section_hero
     title: Welcome to theEngine.com
     content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
+      Decades of thought, exploration and adventure culminate here. We pursue
+      our dreams, our ideas, our bliss. It is a snapshot of the natural
+      expression of that journey.
     actions:
       - label: Let's talk
         url: /contact
