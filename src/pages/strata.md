@@ -1,6 +1,6 @@
 ---
 title: Booking
-subtitle: lorem-ipsum
+subtitle: ''
 excerpt: lorem-ipsum
 template: page
 ---
