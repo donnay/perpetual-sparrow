@@ -1,6 +1,6 @@
 ---
 title: Westpoint Strata Booking
-subtitle: 'A '
+subtitle: 'A booking '
 date: '2018-12-18'
 thumb_image: images/6_thumb.jpg
 image: images/6.jpg
