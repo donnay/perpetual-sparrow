@@ -36,7 +36,8 @@
                 "url": "/contact/",
                 "style": "link"
             }
-        ]
+        ],
+        "logo_img": "images/TheEngine_gearIcon.jpg"
     },
     "footer": {
         "content": "&copy; Stackbit-Exto. All rights reserved.",
