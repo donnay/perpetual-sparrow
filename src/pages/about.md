@@ -4,11 +4,12 @@ subtitle: This is a short page about us and our work.
 image: images/about.jpg
 template: page
 ---
+Kevin D. Clarke
+---
+(Pictured above left)
+An IT Project manager, ITIL Process Improvement champion, motivation & Game Theory student, DSLR photographer, blogger, LGBT social justice activist, world traveler semi-pro.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel venenatis augue. Suspendisse tincidunt, nibh eget sodales eleifend, lectus magna elementum lorem, ut bibendum tellus turpis quis risus. Vivamus sagittis enim est, et semper lectus hendrerit ut.
-
->The world always seems brighter when you’ve just made something that wasn’t there before. - Neil Gaiman
-
-In sollicitudin imperdiet turpis quis accumsan. Pellentesque euismod turpis et nisi fermentum accumsan. Sed mollis vehicula augue sit amet accumsan. Nunc mollis, risus sed ullamcorper bibendum, odio est molestie tellus, venenatis rutrum mauris nibh at nibh. In a auctor leo, eu pretium ante. Quisque faucibus tincidunt fringilla. Donec tempor accumsan ante, in cursus metus tincidunt at. Proin sit amet ligula sed libero consequat consectetur eu tincidunt nulla. 
-
-*Thank You for reading!*
+Noel W. Clarke
+---
+(Pictured above right)
+A visionary in Lean Start-ups (for Entrepreneurs and “Intrepreneurs”) & Quantitative Business Models. He is a Enterprise Cloud Architect @ Google – assisting customers to understand Cloud Native & Agile First methods and practice. He has worked in enterprise software companies such as CA Technologies, Novell, SilverStream Software. Noel holds a Bachelors in Management from Boston University and a MBA from Babson College’s F.W. Olin Graduate School of Business.
