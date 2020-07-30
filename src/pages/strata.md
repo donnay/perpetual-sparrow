@@ -4,7 +4,4 @@ subtitle: ''
 excerpt: lorem-ipsum
 template: page
 ---
-## Lorem ipsum
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum
-- dolor sit amet
+<iframe src ="https://beds24.com/booking2.php?propid=117534&amp;referer=iframe" width="800" height="2000" style="max-width:100%;border:none;overflow:auto;"><p><a href="https://beds24.com/booking2.php?propid=117534&amp;referer=iframe" title="Book Now">Book Now</a></p></iframe>
