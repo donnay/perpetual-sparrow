@@ -83,4 +83,5 @@ sections:
         url: blog
         style: button
 template: advanced
+excerpt: the Engine that drives us forward ...
 ---
