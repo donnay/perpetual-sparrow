@@ -2,7 +2,7 @@
 title: Genesis
 subtitle: A paper based Role-Playing Game
 date: '2019-01-05'
-thumb_image: images/5_thumb.jpg
+thumb_image: images/oceanic-zebra.jpg
 image: images/MilitaryAeroSpaceSecurity.jpg
 template: project
 ---
