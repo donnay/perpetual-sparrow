@@ -1,7 +1,7 @@
 {
     "description": "A portfolio theme with a blog",
     "color_scheme": "dark",
-    "accent_color": "pink",
+    "accent_color": "yellow",
     "header": {
         "title": "Exto",
         "has_nav": true,
