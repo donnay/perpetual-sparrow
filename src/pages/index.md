@@ -27,7 +27,7 @@ sections:
   - section_id: services
     type: section_grid
     title: What We Do
-    subtitle: 'The experiences we have '
+    subtitle: The experiences we have had
     col_number: two
     is_numbered: true
     grid_items:
