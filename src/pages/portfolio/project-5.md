@@ -1,6 +1,6 @@
 ---
 title: Genesis
-subtitle: Optional Project Subtitle
+subtitle: A paper based Role-Playing Game
 date: '2019-01-05'
 thumb_image: images/5_thumb.jpg
 image: images/5.jpg
