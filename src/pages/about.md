@@ -3,6 +3,7 @@ title: About Us
 subtitle: This is a short page about us and our work.
 image: images/Kevin_Noel.jpg
 template: page
+excerpt: 'The Clarke '
 ---
 Kevin D. Clarke
 ---
