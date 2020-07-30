@@ -2,7 +2,7 @@
 title: mBibe.gifts
 subtitle: Our first mobile application
 date: '2019-04-30'
-thumb_image: images/2_thumb.jpg
+thumb_image: images/friendly-broccoli.jpg
 image: images/mBibeAppStore.jpg
 template: project
 ---
