@@ -2,7 +2,7 @@
 title: Naturopathic Alliance site
 subtitle: Development & hosting of a WordPress CMS site
 date: '2019-05-10'
-thumb_image: images/1_thumb.jpg
+thumb_image: images/NAHomePage.jpg
 image: images/1.jpg
 template: project
 ---
