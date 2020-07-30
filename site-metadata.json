@@ -9,7 +9,8 @@
             {
                 "label": "Home",
                 "url": "/",
-                "style": "link"
+                "style": "link",
+                "new_window": true
             },
             {
                 "label": "Portfolio",
