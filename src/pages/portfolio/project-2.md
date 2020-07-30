@@ -1,6 +1,6 @@
 ---
 title: mBibe.gifts
-subtitle: Optional Project Subtitle
+subtitle: Our first mobile application
 date: '2019-04-30'
 thumb_image: images/2_thumb.jpg
 image: images/2.jpg
