@@ -36,7 +36,7 @@
                 "label": "Strata",
                 "url": "/strata/",
                 "style": "link",
-                "icon_class": "lorem-ipsum",
+                "icon_class": "",
                 "new_window": false,
                 "type": "action"
             }
