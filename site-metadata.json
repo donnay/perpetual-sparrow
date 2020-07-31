@@ -33,19 +33,19 @@
                 "style": "link"
             },
             {
-                "label": "",
-                "url": "/strata2/",
-                "style": "link",
-                "icon_class": "",
-                "new_window": true,
-                "type": "action"
-            },
-            {
                 "label": "Strata",
                 "url": "strata",
                 "style": "link",
                 "icon_class": "lorem-ipsum",
                 "new_window": false,
+                "type": "action"
+            },
+            {
+                "label": "",
+                "url": "/strata2/",
+                "style": "link",
+                "icon_class": "",
+                "new_window": true,
                 "type": "action"
             }
         ],
