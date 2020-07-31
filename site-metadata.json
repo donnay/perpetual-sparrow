@@ -39,6 +39,14 @@
                 "icon_class": "",
                 "new_window": true,
                 "type": "action"
+            },
+            {
+                "label": "lorem-ipsum",
+                "url": "lorem-ipsum",
+                "style": "link",
+                "icon_class": "lorem-ipsum",
+                "new_window": false,
+                "type": "action"
             }
         ],
         "logo_img": "images/TheEngine_logo_blk.jpg"
