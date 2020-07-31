@@ -28,17 +28,17 @@
                 "style": "link"
             },
             {
-                "label": "Contact",
-                "url": "/contact/",
-                "style": "link"
-            },
-            {
                 "label": "Strata",
                 "url": "strata",
                 "style": "link",
                 "icon_class": "lorem-ipsum",
                 "new_window": false,
                 "type": "action"
+            },
+            {
+                "label": "Contact",
+                "url": "/contact/",
+                "style": "link"
             },
             {
                 "label": "",
