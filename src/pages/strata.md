@@ -5,7 +5,8 @@ excerpt: lorem-ipsum
 template: page
 image: images/WPHome.jpg
 ---
-## Lorem ipsum
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-- Lorem ipsum
-- dolor sit amet
+## We are currently not accepting bookings
+Please check back later. 
+
+Be Safe. Wear a Mask
+- Westpoint Strata
