@@ -1,5 +1,5 @@
 ---
-title: Welcome VR2124 “Westpoint Terrace”!
+title: Welcom!
 subtitle: lorem-ipsum
 excerpt: lorem-ipsum
 template: page
