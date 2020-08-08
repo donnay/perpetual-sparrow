@@ -50,16 +50,6 @@ sections:
         content: >-
           Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
           nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-  - section_id: latest-posts
-    type: section_posts
-    title: Latest from the Blog
-    subtitle: Articles & ideas that interest us
-    posts_number: 3
-    col_number: three
-    actions:
-      - label: View Blog
-        url: blog
-        style: button
 template: advanced
 excerpt: the Engine that drives us forward ...
 ---
