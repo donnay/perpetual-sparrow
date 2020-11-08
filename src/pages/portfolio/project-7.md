@@ -1,6 +1,6 @@
 ---
 title: JAMStack & e-commerce
-subtitle: 'A simple '
+subtitle: 'A simple site using SSG, CDN and '
 date: '2018-01-15'
 template: project
 ---
