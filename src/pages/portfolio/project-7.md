@@ -1,5 +1,5 @@
 ---
-title: ''
+title: 'Static Site '
 subtitle: Optional Project Subtitle
 date: '2018-01-15'
 template: project
