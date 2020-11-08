@@ -1,5 +1,5 @@
 ---
-title: 'Static Site '
+title: JAMStack & e-commerce
 subtitle: Optional Project Subtitle
 date: '2018-01-15'
 template: project
