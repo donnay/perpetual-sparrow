@@ -1,5 +1,5 @@
 ---
-title: JAMStack & e-commerce
+title: 'JAMStack & Discourse '
 subtitle: 'A simple site using SSG, CDN and hosted Shop'
 excerpt: lorem-ipsum
 date: '2020-11-08'
