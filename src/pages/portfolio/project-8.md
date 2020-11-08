@@ -2,7 +2,7 @@
 title: 'JAMStack & Discourse '
 subtitle: A simple landing site to front a community discussion
 excerpt: lorem-ipsum
-date: '2020-11-08'
+date: '2020-10-08'
 template: project
 thumb_image: images/IMG_1532.jpg
 image: images/remarkable-basil.jpg
