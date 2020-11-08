@@ -4,6 +4,7 @@ subtitle: 'A simple site using SSG, CDN and hosted Shop'
 date: '2020-11-08'
 template: project
 thumb_image: images/IMG_1532.jpg
+image: images/remarkable-basil.jpg
 ---
 
 Diam maecenas sed enim ut sem. Nisl purus in mollis nunc sed id semper. Dictum sit amet justo donec enim diam vulputate ut pharetra. Eget velit aliquet sagittis id consectetur purus ut. Auctor neque vitae tempus quam pellentesque nec. Sed enim ut sem viverra aliquet eget. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Enim tortor at auctor urna nunc id cursus. Fermentum et sollicitudin ac orci phasellus. Nunc non blandit massa enim nec dui. Cursus euismod quis viverra nibh cras pulvinar. Accumsan in nisl nisi scelerisque eu ultrices vitae auctor. Dui vivamus arcu felis bibendum ut.
