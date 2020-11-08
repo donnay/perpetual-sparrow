@@ -1,6 +1,6 @@
 ---
 title: 'JAMStack & Discourse '
-subtitle: 'A simple landing site to front a '
+subtitle: 'A simple landing site to front a ussion '
 excerpt: lorem-ipsum
 date: '2020-11-08'
 template: project
