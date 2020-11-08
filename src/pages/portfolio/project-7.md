@@ -1,6 +1,6 @@
 ---
 title: JAMStack & e-commerce
-subtitle: Optional Project Subtitle
+subtitle: 'A simple '
 date: '2018-01-15'
 template: project
 ---
