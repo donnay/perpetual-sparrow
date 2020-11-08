@@ -1,6 +1,6 @@
 ---
 title: 'JAMStack & Discourse '
-subtitle: 'A simple site using SSG, CDN and hosted '
+subtitle: 'A simple landing site to front a '
 excerpt: lorem-ipsum
 date: '2020-11-08'
 template: project
