@@ -7,4 +7,5 @@ image: images/green-eucalyptus.jpg
 template: project
 excerpt: Website development
 ---
-Over a very short time line we worked with our client to build and deploy a new website to support their efforts to dispel the Info-demic during the S SARS-CoV-2 virus
+Over two weeks, I worked side-bu-side with the client [Naturopathic Alliance](https://naturopathicalliance.org/) to build and deploy a new website to support their efforts to dispel the Info-demic during the S SARS-CoV-2 virus. 
+A Wordpress instance, on a dedicated VM hosted in Google cloud was stood-up. The themes and CMS authoring tools requested were installed and the sites security and peeformance was optimized. 
