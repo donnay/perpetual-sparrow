@@ -2,7 +2,7 @@
 title: Genesis
 subtitle: A paper based Role-Playing Game
 date: '2019-01-05'
-thumb_image: https://theengine.imgix.net/images/oceanic-zebra.jpg?w=500&auto=format,enhance&q=60
+thumb_image: https://theengine.imgix.net/images/oceanic-zebra.jpg?auto=format,enhance&q=60
 image: https://theengine.imgix.net/images/fabulous-planet.jpg?auto=format,enhance&q=60
 template: project
 ---

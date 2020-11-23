@@ -2,7 +2,7 @@
 title: Pioneer Consulting
 subtitle: A early Joomla CMS client site
 date: '2019-02-26'
-thumb_image: https://theengine.imgix.net/images/ultra-basil.jpg?w=500&auto=format,enhance&q=60
+thumb_image: https://theengine.imgix.net/images/ultra-basil.jpg?auto=format,enhance&q=60
 image: https://theengine.imgix.net/images/pioneerconsulting.jpg?auto=format,enhance&q=60
 template: project
 ---
