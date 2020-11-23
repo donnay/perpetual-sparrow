@@ -2,8 +2,8 @@
 title: mBibe.gifts
 subtitle: Our first mobile application
 date: '2019-04-30'
-thumb_image: images/friendly-broccoli.jpg
-image: images/mBibeAppStore.jpg
+thumb_image: https://theengine.imgix.net/images/friendly-broccoli.jpg?fit=crop&crop=entropy&auto=format,enhance&q=60
+image: https://theengine.imgix.net/images/mBibeAppStore.jpg?fit=crop&crop=entropy&auto=format,enhance&q=60
 template: project
 ---
 mBibe.gifts is the unique way for adults to send a “cheers” via iMessage Chat.

@@ -1,7 +1,7 @@
 ---
 title: About Us
 subtitle: This is a short page about us and our work.
-image: images/Kevin_Noel.jpg
+image: https://theengine.imgix.net/images/Kevin_Noel.jpg?fit=crop&crop=entropy&auto=format,enhance&q=60
 template: page
 excerpt: The Clarke brothers
 ---

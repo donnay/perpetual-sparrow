@@ -1,6 +1,6 @@
 ---
 title: Thank You!
-image: images/thank-you.jpg
+image: https://theengine.imgix.net/images/thank-you.jpg?fit=crop&crop=entropy&auto=format,enhance&q=60
 template: page
 ---
 
