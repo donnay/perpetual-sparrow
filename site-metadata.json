@@ -44,7 +44,7 @@
                 "type": "action"
             }
         ],
-        "logo_img": "images/TheEngine_logo_blk.jpg"
+        "logo_img": "images/TheEngine_logo_blk.jpg?fit=crop&crop=entropy&auto=format,enhance&q=60"
     },
     "footer": {
         "content": "&copy; TheEngine.com. All rights reserved.",
