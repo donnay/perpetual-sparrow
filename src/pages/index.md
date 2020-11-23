@@ -27,7 +27,7 @@ sections:
   - section_id: services
     type: section_grid
     title: What We Do
-    subtitle: The are
+    subtitle: 'Our '
     col_number: two
     is_numbered: true
     grid_items:
