@@ -38,9 +38,8 @@ sections:
           competition. 
       - title: Mobile Application Development
         content: >-
-          Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
-          a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
-          tincidunt ut tellus.
+          We help to select from a host of services to find the best, fastest
+          way to get mobile apps in the hands of your customers. 
       - title: Website & Email hosting
         content: >-
           The latest in cloud email & web services gives you unprecedented
