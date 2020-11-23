@@ -2,8 +2,8 @@
 title: Naturopathic Alliance site
 subtitle: Development & hosting of a WordPress CMS site
 date: '2019-05-10'
-thumb_image: https://theengine.imgix.net/images/NAHomePage.jpg?w=500&fit=crop&crop=entropy&auto=format,enhance&q=60
-image: https://theengine.imgix.net/images/green-eucalyptus.jpg?fit=crop&crop=entropy&auto=format,enhance&q=60
+thumb_image: https://theengine.imgix.net/images/NAHomePage.jpg?w=500&auto=format,enhance&q=60
+image: https://theengine.imgix.net/images/green-eucalyptus.jpg?auto=format,enhance&q=60
 template: project
 excerpt: Website development
 ---

@@ -3,8 +3,8 @@ title: JAMStack & e-commerce
 subtitle: 'A simple site using SSG, CDN and hosted Shop'
 date: '2020-11-08'
 template: project
-thumb_image: https://theengine.imgix.net/images/remarkable-basil.jpg?w=500&fit=crop&crop=entropy&auto=format,enhance&q=60
-image: https://theengine.imgix.net/images/remarkable-basil.jpg?fit=crop&crop=entropy&auto=format,enhance&q=60
+thumb_image: https://theengine.imgix.net/images/remarkable-basil.jpg?w=500&auto=format,enhance&q=60
+image: https://theengine.imgix.net/images/remarkable-basil.jpg?auto=format,enhance&q=60
 ---
 My first client [Baja's Food](https://www.bajasfood.com/) & portfolio item using a new pattern of web development - JAMStack. This site was created using templates from [Stackbit.com](https://Stackbit.com) built on [Gatsby.js](https://www.gatsbyjs.com/) with the markdown and YAML files stored as a [GitHub](https://github.com/donnay/modern-olive) repo, build-on-demand and when a commit is made. The site is generated and deployed to the cloud CDN by [Netlify.com](https://www.netlify.com/)
 Shopping cart and e-commerce functions are delivered via [Shopify.com](https://www.shopify.com/).
