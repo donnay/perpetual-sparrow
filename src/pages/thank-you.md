@@ -1,6 +1,6 @@
 ---
 title: Thank You!
-image: https://theengine.imgix.net/images/thank-you.jpg?auto=format,enhance&q=60
+image: https://theengine.imgix.net/images/thank-you.jpg?auto=format,enhance&q=60&fit=clip
 template: page
 ---
 
