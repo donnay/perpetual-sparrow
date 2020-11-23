@@ -47,8 +47,8 @@ sections:
           uptime, reliability.
       - title: Project Management
         content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
+          Work with our skills project managers to get what you need done, on
+          time and on budget.
 template: advanced
 excerpt: the Engine that drives us forward ...
 ---
