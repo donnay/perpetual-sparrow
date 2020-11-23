@@ -4,7 +4,7 @@ subtitle: A simple landing site to front a community discussion
 excerpt: lorem-ipsum
 date: '2020-10-08'
 template: project
-thumb_image: https://theengine.imgix.net/images/IMG_1537.PNG?fit=crop&crop=entropy&auto=format,enhance&q=60
+thumb_image: https://theengine.imgix.net/images/IMG_1537.PNG?w=500&fit=crop&crop=entropy&auto=format,enhance&q=60
 image: https://theengine.imgix.net/images/enthusiastic-sun.PNG?fit=crop&crop=entropy&auto=format,enhance&q=60
 ---
 My first portfolio project using the 'JAMStack'. Which is a pattern of just Javascript, APIs, and Markup to develop websites that are lightning fast, secure and responsive. The content is managed via a GUI for easy updates.

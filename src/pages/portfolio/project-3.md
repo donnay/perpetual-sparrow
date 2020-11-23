@@ -2,7 +2,7 @@
 title: Social Frames
 subtitle: SocialMedia Viewer
 date: '2019-04-08'
-thumb_image: https://theengine.imgix.net/images/royal-celery.jpg?fit=crop&crop=entropy&auto=format,enhance&q=60
+thumb_image: https://theengine.imgix.net/images/royal-celery.jpg?w=500&fit=crop&crop=entropy&auto=format,enhance&q=60
 image: https://theengine.imgix.net/images/diligent-goat.jpg?fit=crop&crop=entropy&auto=format,enhance&q=60
 template: project
 ---
