@@ -5,10 +5,10 @@ sections:
   - section_id: hero
     type: section_hero
     title: 'Welcome! '
-    content: >-
+    content: >
       Decades of thought, exploration and adventure culminate here. We pursue
       our dreams, our ideas, our bliss. It is a snapshot of the natural
-      expression of that journey.
+      expression of that journey.  
 
 
       > the Engine that drives us forward ...
