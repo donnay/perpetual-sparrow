@@ -36,7 +36,7 @@ sections:
           You get a great website from a web design company that strengthens
           your brand, improves the customer experience, and outperforms your
           competition. 
-      - title: Mobile Application Development
+      - title: Mobile Application Development.
         content: >-
           We help to select from a host of services to find the best, fastest
           way to get mobile apps in the hands of your customers. 
