@@ -54,6 +54,18 @@
                 "url": "https://www.stackbit.com",
                 "style": "link",
                 "new_window": true
+            },
+            {
+                "label": "Privacy",
+                "url": "https://www.theengine.com/privacy/",
+                "style": "link",
+                "new_window": false
+            },
+            {
+                "label": "Terms and Conditions",
+                "url": "https://www.theengine.com/Terms/",
+                "style": "link",
+                "new_window": false
             }
         ],
         "has_social": false,
