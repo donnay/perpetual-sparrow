@@ -1,3 +1,19 @@
 [build]
 publish = "public"
 command = "./stackbit-build.sh"
+
+[[redirects]]
+  from = "/genesis"
+  to = "https://interesting-octopus-71e33.netlify.app/"
+  status = 301
+  force = false
+  query = {path = ":path"} #  apply this rule for /old-path?path=example
+  conditions = {Language = ["en","es"], Country = ["US"]}
+
+  [[redirects]]
+    from = "https://genesis.theEngine.com"
+    to = "https://interesting-octopus-71e33.netlify.app/"
+    status = 301
+    force = false
+    query = {path = ":path"} #  apply this rule for /old-path?path=example
+    conditions = {Language = ["en","es"], Country = ["US"]}
