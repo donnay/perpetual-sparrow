@@ -2,7 +2,7 @@
 title: COVID Post Departure checklist 
 hide_title: false
 sections:
-  - section_id: COVID-post
+  - section_id: contact-form
     type: section_form
     content: >-
       Now that your guest has departed here's a checklist that you can use to ensure that the suite has been cleaned completely.
