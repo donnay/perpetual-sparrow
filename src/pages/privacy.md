@@ -130,10 +130,4 @@ Modifications
 This Privacy Policy may be amended from time to time in order to maintain compliance with the law and to reflect any changes to our data collection process. When we amend this Privacy Policy we will update the "Effective Date" at the top of this Privacy Policy. We recommend that our users periodically review our Privacy Policy to ensure that they are notified of any updates. If necessary, we may notify users by email of changes to this Privacy Policy.
 
 Contact Information
-If you have any questions, concerns or complaints, you can contact our privacy officer, Kevin Clarke, at:
-
-kevin@theengine.com
-(604) 616-0014
-602 Citadel Parade
-
-©2002-2021 LawDepot.ca®
+If you have any questions, concerns or complaints, you can [contact us](https://www.theengine.com/contact/) through the feedback form available on our Site.
