@@ -61,8 +61,6 @@ Please contact us if you have any questions or concerns. Our contact details are
 kevin@theengine.com
 602 Citadel Parade
 
-You can also contact us through the feedback form available on our Site.
+You can also [contact us](https://www.theengine.com/contact/) through the feedback form available on our Site.
 
 Effective Date: 12th day of June, 2021
-
-©2002-2021 LawDepot.ca®
