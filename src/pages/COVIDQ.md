@@ -8,7 +8,7 @@ sections:
       In preparation for your stay at 1263 Barclay Street Vancouver. Please
       fill the COVID Questionnaire form below.
     form_id: COVIDPreCheck
-    form_action: /CoQthank-you
+    form_action: /HealthSafety_thanks
     form_fields:
       - input_type: text
         name: name
