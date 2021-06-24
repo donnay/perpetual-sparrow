@@ -34,7 +34,7 @@ Owners and their guests are not permitted in the guest suite if the following ap
 To create a safe environment for building residents and their guests, we have implemented the following protocols:
 * <strong>Social distancing.</strong> Please maintain proper social distance in all common areas of the building. Masks or face coverings are recommended.
 * <strong>Personal safety.</strong> Owners and guests have access to hand sanitizer. Please wash your hands regularly and disinfect surfaces.
-* <strong>Ventilation. Consider opening the bedroom window and the patio door, and bathroom fan, to improve ventilation while you are inside of the suite.
+* <strong>Ventilation.</strong> Consider opening the bedroom window and the patio door, and bathroom fan, to improve ventilation while you are inside of the suite.
 * <strong>Enhanced cleaning.</strong> We provide cleaning products for you to regularly clean and sanitize the suite during your stay. Owners are accountable for thoroughly cleaning and sanitizing the suite at the end of the stay and submitting the cleaning declaration to strata council.
 * <strong>Staggered stays.</strong> We have created a 24-hour buffer period after each stay as an additional safety precaution.
 * <strong>Contact tracing.</strong> A guest attendance record is kept should contact tracing be necessary. Owners are responsible for contacting the Property Manager, if required.
