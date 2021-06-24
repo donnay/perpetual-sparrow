@@ -1,13 +1,13 @@
 ---
-title: COVID Post Departure checklist 
+title: Guest Suite Manual 
 hide_title: false
 sections:
-  - section_id: contact-form
+  - section_id: GuestSuiteForm
     type: section_form
     content: >-
       Now that your guest has departed here's a checklist that you can use to ensure that the suite has been cleaned completely.
-    form_id: COVIDPost
-    form_action: /CoQthank-you
+    form_id: GuestSuiteForm
+    form_action: /StrataThanks
     form_fields:
       - input_type: text
         name: name

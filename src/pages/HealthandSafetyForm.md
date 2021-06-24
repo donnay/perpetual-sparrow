@@ -1,14 +1,14 @@
 ---
-title: COVID Pre-arrival Questionnaire 
+title: Health and Safety Form 
 hide_title: false
 sections:
-  - section_id: contact-form
+  - section_id: HealthandSafetyForm
     type: section_form
     content: >-
       In preparation for your stay at 1263 Barclay Street Vancouver. Please
       fill the COVID Questionnaire form below.
-    form_id: COVIDPreCheck
-    form_action: /HealthSafety_thanks
+    form_id: HealthandSafetyForm
+    form_action: /StrataThanks
     form_fields:
       - input_type: text
         name: name

@@ -17,7 +17,6 @@ template: page
     </tr>
   </tbody>
 </table>
----
 
 ## Westpoint Terrace Health and Safety Plan
 ###### Last updated June 23, 2021

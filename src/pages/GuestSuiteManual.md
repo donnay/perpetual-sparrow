@@ -17,7 +17,6 @@ template: page
     </tr>
   </tbody>
 </table>
----
 
 ## Westpoint Terrace — Guest Suite Manual
 
