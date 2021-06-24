@@ -4,6 +4,8 @@ subtitle: ''
 excerpt: Privacy Policy
 template: page
 ---
+<a href="https://www.theengine.com/HealthSafetyPlan/">Health & Safety</a>&nbsp;&nbsp;&nbsp;
+<a href="https://www.theengine.com/GuestSuiteManual/">Guest Suite Manual</a><br>
 
 ## Westpoint Terrace Health and Safety Plan
 ###### Last updated June 23, 2021
@@ -27,4 +29,5 @@ To create a safe environment for building residents and their guests, we have im
 * Contact tracing. A guest attendance record is kept should contact tracing be necessary. Owners are responsible for contacting the Property Manager, if required.
 
 #### Call 8-1-1 if you have any health concerns or questions regarding possible COVID-19 symptoms.
+
 ---
