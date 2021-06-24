@@ -5,7 +5,7 @@ excerpt: Privacy Policy
 template: page
 ---
 
-www.theEngine.com Privacy Policy
+#### www.theEngine.com Privacy Policy
 
 Type of website: Ecommerce
 Effective date: 12th day of June, 2021
@@ -16,7 +16,7 @@ kevin@theengine.com
 (604) 616-0014
 602 Citadel Parade
 
-Purpose
+##### Purpose
 The purpose of this privacy policy (this "Privacy Policy") is to inform users of our Site of the following:
 
 The personal data we will collect;
@@ -26,7 +26,7 @@ The rights of Site users; and
 The Site's cookie policy.
 This Privacy Policy applies in addition to the terms and conditions of our Site.
 
-Consent
+##### Consent
 By using our Site users agree that they consent to:
 
 The conditions set out in this Privacy Policy; and
@@ -35,7 +35,7 @@ Personal Data We Collect
 We only collect data that helps us achieve the purpose set out in this Privacy Policy. We will not collect any additional data beyond the data listed below without notifying you first.
 
 
-Data Collected Automatically
+##### Data Collected Automatically
 When you visit and use our Site, we may automatically collect and store the following information:
 
 IP address;
@@ -61,28 +61,26 @@ Website performance;
 Website analytics; and
 Improvements.
 The data we collect when the user performs certain functions may be used for the following purposes:
-
 Only for the purpose of the booking.
-Who We Share Personal Data With
+
+##### Who We Share Personal Data With
 Employees
 We may disclose user data to any member of our organization who reasonably needs access to user data to achieve the purposes set out in this Privacy Policy.
 
 Third Parties
 We may share user data with the following third parties:
 
-24beds.com; and
-Stripe.com.
+24beds.com; and Stripe.com.
 We may share the following user data with third parties:
 
-Contact info; and
-Payment information.
+Contact info; and Payment information.
 We may share user data with third parties for the following purposes:
 
 Contact data is stored at 24beds.com to support the booking; and
 Payment data is handled by Stripe.com.
 Third parties will not be able to access user data beyond what is reasonably necessary to achieve the given purpose.
 
-Other Disclosures
+##### Other Disclosures
 We will not sell or share your data with other third parties, except in the following cases:
 
 If the law requires it;
@@ -91,24 +89,24 @@ To prove or protect our legal rights; and
 To buyers or potential buyers of this company in the event that we seek to sell the company.
 If you follow hyperlinks from our Site to another Site, please note that we are not responsible for and have no control over their privacy policies and practices.
 
-How Long We Store Personal Data
+##### How Long We Store Personal Data
 User data will be stored for Non-anonomized contact data is stored for 7 years.
 
-You will be notified if your data is kept for longer than this period.
+##### You will be notified if your data is kept for longer than this period.
 
 How We Protect Your Personal Data
 Data is encrypted while at rest and in flight
 
 While we take all reasonable precautions to ensure that user data is secure and that users are protected, there always remains the risk of harm. The Internet as a whole can be insecure at times and therefore we are unable to guarantee the security of user data beyond what is reasonably practical.
 
-International Data Transfers
+##### International Data Transfers
 We transfer user personal data to the following countries:
 
 EU - Bed24.com is based in the EU; and
 USA - String.com is based in the USA.
 When we transfer user personal data we will protect that data as described in this Privacy Policy and comply with applicable legal requirements for transferring personal data internationally.
 
-Children
+##### Children
 We do not knowingly collect or use personal data from children under 13 years of age. If we learn that we have collected personal data from a child under 13 years of age, the personal data will be deleted as soon as possible. If a child under 13 years of age has provided us with personal data their parent or guardian may contact our privacy officer.
 
 How to Access, Modify, Delete, or Challenge the Data Collected
@@ -119,15 +117,16 @@ kevin@theengine.com
 (604) 616-0014
 602 Citadel Parade
 
-Cookie Policy
+##### Cookie Policy
 A cookie is a small file, stored on a user's hard drive by a website. Its purpose is to collect data relating to the user's browsing habits. You can choose to be notified each time a cookie is transmitted. You can also choose to disable cookies entirely in your internet browser, but this may decrease the quality of your user experience.
 
 We use the following types of cookies on our Site:
 
-Analytical cookies
+##### Analytical cookies
 Analytical cookies allow us to improve the design and functionality of our Site by collecting data on how you access our Site, for example data on the content you access, how long you stay on our Site, etc.
-Modifications
+
+##### Modifications
 This Privacy Policy may be amended from time to time in order to maintain compliance with the law and to reflect any changes to our data collection process. When we amend this Privacy Policy we will update the "Effective Date" at the top of this Privacy Policy. We recommend that our users periodically review our Privacy Policy to ensure that they are notified of any updates. If necessary, we may notify users by email of changes to this Privacy Policy.
 
-Contact Information
+##### Contact Information
 If you have any questions, concerns or complaints, you can [contact us](https://www.theengine.com/contact/) through the feedback form available on our Site.

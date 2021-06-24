@@ -1,6 +1,6 @@
 ---
-title: Guest Suite Manual 
-subtitle: ''
+title: Westpoint Terrace 
+subtitle: 'Guest Suite Manual'
 excerpt: Welcome - here is some helpful information for your stay and please don’t hesitate to contact us at any time if anything is unclear.
 template: page
 ---
@@ -18,7 +18,7 @@ template: page
   </tbody>
 </table>
 
-## Westpoint Terrace — Guest Suite Manual
+## Guest Suite Manual
 
 Welcome to the Westpoint Terrace Guest Suite! We are so happy to have you. You’ll find some helpful information below for your stay and please don’t hesitate to contact us at any time if anything is unclear…
 
