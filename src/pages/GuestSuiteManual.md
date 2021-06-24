@@ -4,8 +4,20 @@ subtitle: ''
 excerpt: Welcome - here is some helpful information for your stay and please don’t hesitate to contact us at any time if anything is unclear.
 template: page
 ---
-<a href="https://www.theengine.com/HealthSafetyPlan/">Health & Safety</a>&nbsp;&nbsp;&nbsp;
-<a href="https://www.theengine.com/GuestSuiteManual/">Guest Suite Manual</a><br>
+<table>
+  <thead>
+    <tr>
+      <th><a href="https://www.theengine.com/WestpointTerrace/">Guest Suite Home</a></th>
+      <th><a href="https://www.theengine.com/HealthSafetyPlan/">Health & Safety</a></th>
+      <th><a href="https://www.theengine.com/GuestSuiteManual/">Guest Suite Manual</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    </tr>
+  </tbody>
+</table>
+---
 
 ## Westpoint Terrace — Guest Suite Manual
 

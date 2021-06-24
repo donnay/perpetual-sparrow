@@ -1,11 +1,23 @@
 ---
-title: Privacy Policy 
+title: Health and Safety Plan
 subtitle: ''
-excerpt: Privacy Policy
+excerpt: Our guest suite health and safety plan is based on guidance from BC's Provincial Health Officer and WorkSafeBC.
 template: page
 ---
-<a href="https://www.theengine.com/HealthSafetyPlan/">Health & Safety</a>&nbsp;&nbsp;&nbsp;
-<a href="https://www.theengine.com/GuestSuiteManual/">Guest Suite Manual</a><br>
+<table>
+  <thead>
+    <tr>
+      <th><a href="https://www.theengine.com/WestpointTerrace/">Guest Suite Home</a></th>
+      <th><a href="https://www.theengine.com/HealthSafetyPlan/">Health & Safety</a></th>
+      <th><a href="https://www.theengine.com/GuestSuiteManual/">Guest Suite Manual</a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+    </tr>
+  </tbody>
+</table>
+---
 
 ## Westpoint Terrace Health and Safety Plan
 ###### Last updated June 23, 2021
