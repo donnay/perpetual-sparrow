@@ -5,17 +5,13 @@ excerpt: Welcome - here is some helpful information for your stay and please don
 template: page
 ---
 <table>
-  <thead>
+  <to dy>
     <tr>
       <th><a href="https://www.theengine.com/WestpointTerrace/">Guest Suite Home</a></th>
       <th><a href="https://www.theengine.com/HealthSafetyPlan/">Health & Safety</a></th>
       <th><a href="https://www.theengine.com/GuestSuiteManual/">Guest Suite Manual</a></th>
     </tr>
-  </thead>
-  <tbody>
-    <tr>
-    </tr>
-  </tbody>
+  </to dy>
 </table>
 
 ## Guest Suite Manual
@@ -23,8 +19,10 @@ template: page
 Welcome to the Westpoint Terrace Guest Suite! We are so happy to have you. You’ll find some helpful information below for your stay and please don’t hesitate to contact us at any time if anything is unclear…
 
 ### Address:
-   1263 Barclay Street, Vancouver, BC
-   CHECK-IN / CHECK-OUT
+   1263 Barclay Street, 
+   Vancouver, BC
+   
+### Check-in / Check-out
    Check in time is 3pm.
    Check out time is 12pm.
 
@@ -41,7 +39,8 @@ We ask that you kindly remove your shoes before entering the suite.
 ### WIFI
 Log In: TELUS1020
 Password: fpvki84nw4
-### Linens and Towels
+
+### Linens and Towels
 Linens and towels are not provided by Strata.
 
 ### Heating
