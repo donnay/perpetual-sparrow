@@ -5,13 +5,17 @@ excerpt: Welcome - here is some helpful information for your stay and please don
 template: page
 ---
 <table>
-  <to dy>
+  <thead>
     <tr>
       <th><a href="https://www.theengine.com/WestpointTerrace/">Guest Suite Home</a></th>
       <th><a href="https://www.theengine.com/HealthSafetyPlan/">Health & Safety</a></th>
       <th><a href="https://www.theengine.com/GuestSuiteManual/">Guest Suite Manual</a></th>
     </tr>
-  </to dy>
+  </thead>
+  <tbody>
+    <tr>
+    </tr>
+  </tbody>
 </table>
 
 ## Guest Suite Manual
