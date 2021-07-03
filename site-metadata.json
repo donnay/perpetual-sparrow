@@ -24,11 +24,11 @@
             },
             {
                 "label": "Strata",
-                "url": "strata",
+                "url": "/WestpointTerrace/",
                 "style": "link",
                 "icon_class": "lorem-ipsum",
                 "new_window": false,
-                "type": "action"
+                "type": "link"
             },
             {
                 "label": "Contact",
