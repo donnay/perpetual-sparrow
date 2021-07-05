@@ -54,7 +54,7 @@ There is electric heating throughout the house and a gas fireplace. If you are n
 Please turn on the exhaust fan in bathroom when using shower or having a bath to avoid condensation.
 
 ### Deck & Patio Furniture
-Use at your own risk. Please ensure children are supervised at all times. Please clean patio furniture before leaving the house.
+Please ensure children are supervised at all times. Please clean patio furniture before leaving the house.
 
 ### Local Area Businesses
 The West End is full of wonderful shops and eateries, all within walking distance of Westpoint Terrace. Please consider supporting our local merchants during your stay.
