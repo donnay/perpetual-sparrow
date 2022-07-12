@@ -31,6 +31,14 @@
                 "type": "action"
             },
             {
+                "label": "Citadel",
+                "url": "citadel",
+                "style": "link",
+                "icon_class": "lorem-ipsum",
+                "new_window": false,
+                "type": "action"
+            },
+            {
                 "label": "Contact",
                 "url": "/contact/",
                 "style": "link"
