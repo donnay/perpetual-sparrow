@@ -1,14 +1,15 @@
 ---
-title: Master Suite Manual
-subtitle: 'Health and Safety Plan'
-excerpt: Our guest suite health and safety plan is based on guidance from BC's Provincial Health Officer and WorkSafeBC.
+title: Kevin's Master Suite Manual
+subtitle: 'Master Suite Manual'
+excerpt: Welcome - here is some helpful information for your stay and please don’t hesitate to contact us at any time if anything is unclear.
 template: page
 ---
-table>
+<table>
   <thead>
     <tr>
       <th><a href="https://www.theengine.com/citadel/">Kevin's Place</a></th>
-      <th><a href="https://www.theengine.com/MasterSuiteManual/">Master Suite Manual</a></th>
+      <th><a href="https://www.theengine.com/MasterSuiteHealth/">Master Suite Health & Safety</a></th>
+      th><a href="https://www.theengine.com/MasterSuiteManual/">Master Suite Manual</a></th>
     </tr>
   </thead>
   <tbody>
@@ -17,25 +18,61 @@ table>
   </tbody>
 </table>
 
-## Health and Safety Plan
-###### Last updated June 23, 2021
+## Guest Suite Manual
 
-Our guest suite health and safety plan is based on guidance from BC's Provincial Health Officer and WorkSafeBC.
+Welcome to the Kevin's Place. We are so happy to have you. You’ll find some helpful information below for your stay and please don’t hesitate to contact us at any time if anything is unclear…
 
-#### Illness Policy
-Friends and Family are not permitted if the following apply:
-* You have had close contact with anyone with a confirmed COVID-19 diagnosis in the past 14 days.
-* You have a fever.
-* You are experiencing new or worsening symptoms, including cough, shortness of breath, sore throat; runny nose, sneezing or post-nasal drip (not related to allergies); hoarse voice; difficulty swallowing; loss of smell or taste; nausea/vomiting, diarrhea, abdominal pain; unexplained fatigue/malaise; chills or headache.
+### Address:
+   Suite 2108
+   602 Citadel Parade,
+   Vancouver, BC
 
-#### Our commitment to your health and safety
-To create a safe environment for my friends and family, I have implemented the following protocols:
-* <strong>Social distancing.</strong> Please maintain proper social distance in all common areas of the building. Masks or face coverings are recommended.
-* <strong>Personal safety.</strong> You will have access to hand sanitizer. Please wash your hands regularly and disinfect surfaces.
-* <strong>Ventilation.</strong> Consider opening the bedroom window and the patio door, and bathroom fan, to improve ventilation while you are inside of the suite.
-* <strong>Enhanced cleaning.</strong> We provide cleaning products for you to regularly clean and sanitize the suite during your stay. Please thoroughly clean and sanitize the suite at the end of the stay.
-* <strong>Contact tracing.</strong> A guest attendance record is kept should contact tracing be necessary.
+### Check-in / Check-out
+   Check in time is 3pm.
+   Check out time is 12pm.
 
-#### Call 8-1-1 if you have any health concerns or questions regarding possible COVID-19 symptoms.
+### Suite Keys
+You will receive a message before your check-in day with the location of designated key pick up point. The keys must be returned to the designated point no later than 12pm on your check-out day.
+
+### Parking
+Visitor parking is available. If you have indicated that you need parking when I give you the keys I will share the directors to the secure underground parking stall.
+
+### Shoes
+We ask that you kindly remove your shoes before entering the suite.
+
+### WIFI
+Network ID: 2108-602
+Password: oddcanoe113
+
+### Linens and Towels
+Linens and towels are cleaned between each guest.
+
+### Heating
+There is electric heating throughout the house.
+
+### Bathroom Fans
+Please turn on the exhaust fan in bathroom when using shower or having a bath to avoid condensation.
+
+### Local Area Businesses
+Located across from Stadium Skytrain you have access to all of the lower mainland via Translink transit. We are located between Yaletown to the South and Gastown to the North with every kind of shop, restaurant to could ask for.
+
+### Pets
+I ask that friends kindly not bring pets.
+
+### Smoking
+The building is a Non-smoking building.
+
+### Check-Out
+Upon checkout please ensure that you have cleaned the suite, including:
+* dishes cleaned and put away
+* vacuuming
+* linens removed
+* appliances cleaned
+* countertops wiped down, crumbs removed
+* food items from the fridge and freezer.
+* garbage/recycling removed
+* bathroom washed down (toilet, sink, shower, flooring)
+
+If the Master Suite is not left in a satisfactory condition a cleaning fee ($40.00 per hour) will be charged for every hour or portion thereof required to clean or repair the suite.
 
 ---
