@@ -7,9 +7,9 @@ template: page
 <table>
   <thead>
     <tr>
-      <th><a href="https://www.theengine.com/citadel/">Kevin's Place</a></th>
-      <th><a href="https://www.theengine.com/MasterSuiteHealth/">Master Suite Health & Safety</a></th>
-      <th><a href="https://www.theengine.com/MasterSuiteManual/">Master Suite Manual</a></th>
+      <th><a href="https://www.theengine.com/citadel/" rel="nofollow">Kevin's Place</a></th>
+      <th><a href="https://www.theengine.com/MasterSuiteHealth/" rel="nofollow">Master Suite Health & Safety</a></th>
+      <th><a href="https://www.theengine.com/MasterSuiteManual/" rel="nofollow">Master Suite Manual</a></th>
     </tr>
   </thead>
   <tbody>

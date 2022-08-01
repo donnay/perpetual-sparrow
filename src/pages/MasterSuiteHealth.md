@@ -7,9 +7,9 @@ template: page
 <table>
   <thead>
     <tr>
-      <th><a href="https://www.theengine.com/citadel/">Kevin's Place</a></th>
-      <th><a href="https://www.theengine.com/MasterSuiteHealth/">Master Suite Health & Safety</a></th>
-      <th><a href="https://www.theengine.com/MasterSuiteManual/">Master Suite Manual</a></th>
+      <th><a href="https://www.theengine.com/citadel/" rel="nofollow">Kevin's Place</a></th>
+      <th><a href="https://www.theengine.com/MasterSuiteHealth/" rel="nofollow">Master Suite Health & Safety</a></th>
+      <th><a href="https://www.theengine.com/MasterSuiteManual/" rel="nofollow">Master Suite Manual</a></th>
     </tr>
   </thead>
   <tbody>
@@ -19,7 +19,7 @@ template: page
 </table>
 
 ## Health and Safety Plan
-###### Last updated June 23, 2021
+###### Last updated July 31, 2022
 
 Our guest suite health and safety plan is based on guidance from BC's Provincial Health Officer and WorkSafeBC.
 
