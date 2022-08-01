@@ -23,13 +23,13 @@ template: page
 Welcome to the Kevin's Place. I am so happy to have you. You’ll find some helpful information below for your stay and please don’t hesitate to contact us at any time if anything is unclear…
 
 ### Address:
-   Suite 2108
-   602 Citadel Parade,
-   Vancouver, BC V6B 1X2
+   Suite 2108</p>
+   602 Citadel Parade,</p>
+   Vancouver, BC V6B 1X2</p>
 
 ### Check-in / Check-out
-   Check in time is 3pm.
-   Check out time is 12pm.
+   Check in time is 3pm.</p>
+   Check out time is 12pm.</p>
 
 ### Suite Keys
 You will receive a message before your check-in day with the location of designated key pick up point. The keys must be returned to the designated point no later than 12pm on your check-out day.
@@ -41,7 +41,7 @@ Visitor parking is available. If you have indicated that you need parking when I
 We ask that you kindly remove your shoes before entering the suite.
 
 ### WIFI
-Network ID: 2108-602
+Network ID: 2108-602</p>
 Password: oddcanoe113
 
 ### Linens and Towels
