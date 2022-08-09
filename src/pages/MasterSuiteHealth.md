@@ -1,7 +1,7 @@
 ---
 title: Master Suite Health
 subtitle: 'Health and Safety Plan'
-excerpt: Our guest suite health and safety plan is based on guidance from BC's Provincial Health Officer and WorkSafeBC.
+excerpt: My guest suite health and safety plan is based on guidance from BC's Provincial Health Officer and WorkSafeBC.
 template: page
 ---
 <table>
@@ -21,7 +21,7 @@ template: page
 ## Health and Safety Plan
 ###### Last updated July 31, 2022
 
-Our guest suite health and safety plan is based on guidance from BC's Provincial Health Officer and WorkSafeBC.
+My guest suite health and safety plan is based on guidance from BC's Provincial Health Officer and WorkSafeBC.
 
 #### Illness Policy
 Friends and Family are not permitted if the following apply:
@@ -29,7 +29,7 @@ Friends and Family are not permitted if the following apply:
 * You have a fever.
 * You are experiencing new or worsening symptoms, including cough, shortness of breath, sore throat; runny nose, sneezing or post-nasal drip (not related to allergies); hoarse voice; difficulty swallowing; loss of smell or taste; nausea/vomiting, diarrhea, abdominal pain; unexplained fatigue/malaise; chills or headache.
 
-#### Our commitment to your health and safety
+#### My commitment to your health and safety
 To create a safe environment for my friends and family, I have implemented the following protocols:
 * <strong>Social distancing.</strong> Please maintain proper social distance in all common areas of the building. Masks or face coverings are recommended.
 * <strong>Personal safety.</strong> You will have access to hand sanitizer. Please wash your hands regularly and disinfect surfaces.

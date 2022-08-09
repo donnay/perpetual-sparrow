@@ -1,7 +1,7 @@
 ---
 title: Kevin's Master Suite Manual
 subtitle: 'Master Suite Manual'
-excerpt: Welcome - here is some helpful information for your stay and please don’t hesitate to contact us at any time if anything is unclear.
+excerpt: Welcome - here is some helpful information for your stay and please don’t hesitate to contact me at any time if anything is unclear.
 template: page
 ---
 <table>
@@ -24,11 +24,11 @@ Welcome to the Kevin's Place. I am so happy to have you. You’ll find some help
 
 ### Address:
    Suite 2108</p>
-   602 Citadel Parade,</p>
+   602 Citadel Parade,<br>
    Vancouver, BC V6B 1X2</p>
 
 ### Check-in / Check-out
-   Check in time is 3pm.</p>
+   Check in time is 3pm.<br>
    Check out time is 12pm.</p>
 
 ### Suite Keys
@@ -41,7 +41,7 @@ Visitor parking is available. If you have indicated that you need parking when I
 We ask that you kindly remove your shoes before entering the suite.
 
 ### WIFI
-Network ID: 2108-602</p>
+Network ID: 2108-602<br>
 Password: oddcanoe113
 
 ### Linens and Towels
