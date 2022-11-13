@@ -2,6 +2,9 @@
 publish = "public"
 command = "./stackbit-build.sh"
 
+[[context.production.plugins]]
+package = "@netlify/plugin-gatsby"
+
 [[redirects]]
   from = "/genesis"
   to = "https://interesting-octopus-71e33.netlify.app/"
