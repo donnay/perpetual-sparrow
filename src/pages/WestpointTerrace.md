@@ -1,5 +1,5 @@
 ---
-title: Westpoint Terrace 
+title: Westpoint Terrace
 subtitle: 'Welcome!'
 excerpt: Westpoint Terrace Strata Booking
 template: page
@@ -10,6 +10,7 @@ template: page
       <th><a href="https://www.theengine.com/WestpointTerrace/">Guest Suite Home</a></th>
       <th><a href="https://www.theengine.com/HealthSafetyPlan/">Health & Safety</a></th>
       <th><a href="https://www.theengine.com/GuestSuiteManual/">Guest Suite Manual</a></th>
+      <th><a href="https://www.theengine.com/citadel/" rel="nofollow">No room? Check our new Property</a></th>
     </tr>
   </thead>
   <tbody>

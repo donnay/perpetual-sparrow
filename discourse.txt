@@ -1,5 +1,0 @@
-{
-	"API_ADDRESS":"https://forum.GayWorld.org",
-	"API_KEY":"b5f8b9f291cc0ba91f065664c42be8984a36d549390e939a555ed74bf9558832",
-	"API_USERNAME": "CmUnityLead"
-}
